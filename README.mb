@@ -1,0 +1,56 @@
+# Student Performance Analytics System
+
+## 1. Project Objective
+The Student Performance Analytics System analyzes student marks and attendance using Python, Pandas, and NumPy. It generates performance summaries, grades, pass/fail results, department-wise statistics, and charts.
+
+## 2. Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- CSV dataset
+- Visual Studio Code
+
+## 3. Dataset Description
+The project uses a CSV file named `students.csv` containing 20 student records.
+
+Dataset columns:
+- StudentID
+- Name
+- Department
+- Python, SQL, Maths, AI, English
+- Attendance
+
+## 4. Key Features
+- Loads student records into a Pandas DataFrame
+- Calculates total and average marks
+- Assigns grades based on average marks
+- Determines pass/fail status for each student
+- Identifies highest- and lowest-performing students
+- Displays the top 3 students
+- Calculates subject-wise average marks
+- Performs department-wise analysis
+- Checks missing values, mark ranges, and duplicate IDs
+- Exports a final report to `student_performance_report.csv`
+- Generates a chart of the top 10 students
+
+## 5. How to Run the Project
+1. Install Python.
+2. Install the required libraries:
+   `pip install pandas numpy matplotlib`
+3. Keep `main.py` and `students.csv` in the same project folder.
+4. Run:
+   `python main.py`
+
+## 6. Output Files
+- `student_performance_report.csv` — final student report
+- `top_students_chart.png` — top 10 students' average marks chart
+
+## 7. Learning Outcomes
+This project provides practical experience with Python functions, loops, conditions, Pandas DataFrames, NumPy, data analysis, CSV files, and data visualization.
+
+## 8. Conclusion
+The project converts student marks data into useful performance insights and generates a report and chart for easy interpretation.
+
+## 9. GitHub Repository
+Add your GitHub repository URL here after uploading the project.
